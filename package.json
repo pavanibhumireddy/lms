@@ -1,4 +1,5 @@
 {
+<<<<<<< HEAD
   "name": "server",
   "version": "1.0.0",
   "description": "",
@@ -7,10 +8,19 @@
   "scripts": {
     "server": "nodemon server.js",
     "start": "node server.js"
+=======
+  "name": "lms",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+>>>>>>> 86b6743913b60852990a71929ec6cc6f48d522e4
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
+<<<<<<< HEAD
   "dependencies": {
     "@clerk/express": "^1.7.31",
     "cloudinary": "^2.7.0",
@@ -22,4 +32,7 @@
     "stripe": "^18.5.0",
     "svix": "^1.76.1"
   }
+=======
+  "type": "commonjs"
+>>>>>>> 86b6743913b60852990a71929ec6cc6f48d522e4
 }
